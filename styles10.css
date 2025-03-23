@@ -1,0 +1,85 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .Page {
+      display: flex;
+      background-color: #333;
+      color: white;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .Welcome {
+      
+      margin-left: 20px;
+      color: #2a9d8f;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+    }
+
+    .navbar ul li {
+      margin: 0 15px;
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .navbar ul li a:hover {
+      color: #f4a261;
+    }
+
+    .hero {
+      background: #2a9d8f;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .content {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    #contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    #contact form label,
+    #contact form input,
+    #contact form textarea {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  
